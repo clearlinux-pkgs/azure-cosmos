@@ -4,7 +4,7 @@
 #
 Name     : azure-cosmos
 Version  : 4.2.0
-Release  : 9
+Release  : 10
 URL      : https://files.pythonhosted.org/packages/87/0d/ee9d2110b82692af77b2ff22294a5563948b42d25f92a5df95471612dbd8/azure-cosmos-4.2.0.zip
 Source0  : https://files.pythonhosted.org/packages/87/0d/ee9d2110b82692af77b2ff22294a5563948b42d25f92a5df95471612dbd8/azure-cosmos-4.2.0.zip
 Summary  : Microsoft Azure Cosmos Client Library for Python
