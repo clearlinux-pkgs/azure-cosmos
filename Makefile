@@ -1,5 +1,5 @@
 PKG_NAME := azure-cosmos
-URL = https://files.pythonhosted.org/packages/9c/47/c77b0008c9f3bf90c533a7f538b149c7cd28d2d9c5303d3fc017ada6c09c/azure-cosmos-3.1.2.tar.gz
+URL = https://files.pythonhosted.org/packages/87/0d/ee9d2110b82692af77b2ff22294a5563948b42d25f92a5df95471612dbd8/azure-cosmos-4.2.0.zip
 ARCHIVES = 
 
 include ../common/Makefile.common
