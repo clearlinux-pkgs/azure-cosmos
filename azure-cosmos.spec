@@ -4,7 +4,7 @@
 #
 Name     : azure-cosmos
 Version  : 4.2.0
-Release  : 10
+Release  : 11
 URL      : https://files.pythonhosted.org/packages/87/0d/ee9d2110b82692af77b2ff22294a5563948b42d25f92a5df95471612dbd8/azure-cosmos-4.2.0.zip
 Source0  : https://files.pythonhosted.org/packages/87/0d/ee9d2110b82692af77b2ff22294a5563948b42d25f92a5df95471612dbd8/azure-cosmos-4.2.0.zip
 Summary  : Microsoft Azure Cosmos Client Library for Python
@@ -71,7 +71,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1607992927
+export SOURCE_DATE_EPOCH=1607993352
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -93,8 +93,8 @@ echo ----[ mark ]----
 cat %{buildroot}/usr/lib/python3*/site-packages/*/requires.txt || :
 echo ----[ mark ]----
 ## Remove excluded files
-rm -f %{buildroot}/usr/lib/python3.8/site-packages/azure/__init__.py
-rm -f %{buildroot}/usr/lib/python3.8/site-packages/azure/__pycache__/__init__.cpython-38.pyc
+rm -f %{buildroot}/usr/lib/python3.9/site-packages/azure/__init__.py
+rm -f %{buildroot}/usr/lib/python3.9/site-packages/azure/__pycache__/__init__.cpython-38.pyc
 
 %files
 %defattr(-,root,root,-)
