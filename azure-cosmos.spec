@@ -4,7 +4,7 @@
 #
 Name     : azure-cosmos
 Version  : 4.2.0
-Release  : 13
+Release  : 14
 URL      : https://files.pythonhosted.org/packages/87/0d/ee9d2110b82692af77b2ff22294a5563948b42d25f92a5df95471612dbd8/azure-cosmos-4.2.0.zip
 Source0  : https://files.pythonhosted.org/packages/87/0d/ee9d2110b82692af77b2ff22294a5563948b42d25f92a5df95471612dbd8/azure-cosmos-4.2.0.zip
 Summary  : Microsoft Azure Cosmos Client Library for Python
@@ -93,8 +93,8 @@ echo ----[ mark ]----
 cat %{buildroot}/usr/lib/python3*/site-packages/*/requires.txt || :
 echo ----[ mark ]----
 ## Remove excluded files
-rm -f %{buildroot}/usr/lib/python3.9/site-packages/azure/__init__.py
-rm -f %{buildroot}/usr/lib/python3.9/site-packages/azure/__pycache__/__init__.cpython-38.pyc
+rm -f %{buildroot}/usr/lib/python3*/site-packages/azure/__init__.py
+rm -f %{buildroot}/usr/lib/python3*/site-packages/azure/__pycache__/__init__.cpython-3*.pyc
 
 %files
 %defattr(-,root,root,-)
